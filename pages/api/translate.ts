@@ -15,7 +15,7 @@ export default async function handler(
     const prompt = req.query.prompt;
 
     if (!prompt){
-        return res.status(400).json({error: "Prompt missing"});
+        return res.status(400).json({error: "Prompt missingg"});
 
     }
 
